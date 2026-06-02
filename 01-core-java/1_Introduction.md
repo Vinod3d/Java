@@ -218,7 +218,3 @@ Java is used in:
 
 * JavaFX
 * Swing
-
----
-
-**Next recommended note:** [Java Program Structure](./2_Basic_program_structure.md) (Anatomy of `public static void main`, class declaration, statements & blocks, naming conventions) because introduction and history are usually followed by understanding a basic program structure.

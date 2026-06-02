@@ -132,7 +132,7 @@ Java provides 8 primitive data types.
 
 *Actual storage may vary depending on JVM implementation.
 
-## Integer Types
+### Integer Types
 
 ### byte
 
@@ -176,7 +176,7 @@ long distance = 9876543210L;
 
 ---
 
-## Floating-Point Types
+### Floating-Point Types
 
 ### float
 
@@ -399,5 +399,3 @@ Primitive data types store actual values, while non-primitive data types store r
 ### What is `var` in Java?
 
 `var` allows the compiler to automatically infer the data type during variable declaration.
-
-**Next recommended note:** [Operators in Java](./04-operators-in-java.md) (Arithmetic, Relational, Logical, Assignment, Unary, Ternary, Bitwise, Operator Precedence) because variables and data types are usually followed by operators.

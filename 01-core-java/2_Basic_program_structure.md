@@ -146,7 +146,7 @@ public static void main(String[] args) {
 
 ## 6. Statements and Blocks
 
-## Statement
+### Statement
 
 A statement is a single instruction.
 
@@ -162,9 +162,7 @@ System.out.println(age);
 
 Every statement ends with a semicolon (;).
 
----
-
-## Block
+### Block
 
 A block is a group of statements enclosed within braces.
 
@@ -187,18 +185,15 @@ Comments are used to explain code.
 
 They are ignored by the compiler.
 
----
 
-## Single-Line Comment
+### Single-Line Comment
 
 ```java
 // This is a comment
 System.out.println("Java");
 ```
 
----
-
-## Multi-Line Comment
+### Multi-Line Comment
 
 ```java
 /*
@@ -207,9 +202,7 @@ a multi-line comment
 */
 ```
 
----
-
-## Documentation Comment
+### Documentation Comment
 
 ```java
 /**
@@ -225,9 +218,8 @@ Used for generating project documentation.
 
 Following naming conventions makes code easy to read and maintain.
 
----
 
-## Class Names
+### Class Names
 
 Use PascalCase.
 
@@ -239,9 +231,7 @@ class StudentManagement
 class EmployeeDetails
 ```
 
----
-
-## Variable Names
+### Variable Names
 
 Use camelCase.
 
@@ -253,9 +243,7 @@ int studentAge;
 String firstName;
 ```
 
----
-
-## Method Names
+### Method Names
 
 Use camelCase.
 
@@ -267,9 +255,7 @@ calculateSalary();
 printDetails();
 ```
 
----
-
-## Constants
+### Constants
 
 Use UPPER_CASE.
 
@@ -310,8 +296,6 @@ Compiler generates:
 Main.class
 ```
 
----
-
 ### Step 3
 
 Run the program.
@@ -332,8 +316,6 @@ JVM loads bytecode.
 
 JVM converts bytecode into machine code.
 
----
-
 ### Step 6
 
 Output is displayed.
@@ -341,8 +323,3 @@ Output is displayed.
 ```text
 Hello Java
 ```
-
----
-
-**Next recommended note:** [Java Variables & Data Types](./3_Variables_Data-type.md) (Primitive/Reference types, type casting, var type inference, memory sizes) because program structure is usually followed by learning about variables and data types.
-
