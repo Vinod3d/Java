@@ -119,16 +119,16 @@ char grade = 'A';
 
 Java provides 8 primitive data types.
 
-| Data Type | Size    | Default Value | Example |
-| --------- | ------- | ------------- | ------- |
-| byte      | 1 byte  | 0             | 100     |
-| short     | 2 bytes | 0             | 1000    |
-| int       | 4 bytes | 0             | 50000   |
-| long      | 8 bytes | 0L            | 100000L |
-| float     | 4 bytes | 0.0f          | 10.5f   |
-| double    | 8 bytes | 0.0d          | 20.75   |
-| char      | 2 bytes | '\u0000'      | 'A'     |
-| boolean   | 1 bit*  | false         | true    |
+| Data Type | Size    | Default Value | Range | Example |
+| --------- | ------- | ------------- | ----- | ------- |
+| byte      | 1 byte  | 0             | -128 to 127 | 100     |
+| short     | 2 bytes | 0             | -32,768 to 32,767 | 1000    |
+| int       | 4 bytes | 0             | -2,147,483,648 to 2,147,483,647 | 50000   |
+| long      | 8 bytes | 0L            | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 | 100000L |
+| float     | 4 bytes | 0.0f          | 1.4e-45 to 3.4028235e+38 | 10.5f   |
+| double    | 8 bytes | 0.0d          | 4.9e-324 to 1.7976931348623157e+308 | 20.75   |
+| char      | 2 bytes | '\u0000'      | 0 to 65,535 (unsigned) | 'A'     |
+| boolean   | 1 bit*  | false         | true or false | true    |
 
 *Actual storage may vary depending on JVM implementation.
 
