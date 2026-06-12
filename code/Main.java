@@ -1,9 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        double num1 = 12e10;
-        char c = 'a';
-        c++;
-        System.out.println(num1);
-        System.out.println(c);
+    String day = "SATURDAY";
+    boolean isWeekend = switch (day) {
+    case "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY" -> false;
+    case "SATURDAY", "SUNDAY" -> true;
+    default -> throw new IllegalArgumentException("Invalid day: " + day);
+};
+    System.out.println(isWeekend);
     }
 }
