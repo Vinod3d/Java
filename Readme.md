@@ -7,3 +7,5 @@
 | 3 | [📄 Java Variables & Data Types](./01-core-java/3_Variables_Data-type.md) | Primitive/Reference types, type casting (widening/narrowing), var type inference, memory sizes |
 | 4 | [📄 Java Type Conversion](./01-core-java/4_type_conversion.md) | Widening (Implicit), Narrowing (Explicit), Overflow & Wrap-around, Numeric Promotion, Reference Type Casting |
 | 5 | [📄 Java Operators](./01-core-java/5_Operators.md) | Arithmetic, Relational, Logical, Assignment, Increment/Decrement, Bitwise, Conditional, Instanceof, Operator Precedence |
+| 6 | [📄 Java Conditional Statements](./01-core-java/6_Conditional-Statements.md) | `if-else`, `switch` (Traditional vs. Switch Expressions), Ternary Operator, Nested Conditionals |
+| 7 | [📄 Java Loop Statements](./01-core-java/7_Loop.md) | `for`, `while`, `do-while`, `for-each`, Jump Statements (`break`, `continue`, Labeled Loops) |
